@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/David-V-R/new-repo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "new-repo"]
+	url = https://github.com/David-V-R/new-repo.git
+	fetch = +refs/heads/*:refs/remotes/new-repo/*
+[remote "yotas"]
+	url = https://github.com/David-V-R/new-repo.git
+	fetch = +refs/heads/*:refs/remotes/yotas/*
+[remote "David-V-R"]
+	url = https://github.com/David-V-R/new-repo.git
+	fetch = +refs/heads/*:refs/remotes/David-V-R/*
